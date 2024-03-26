@@ -1,0 +1,18 @@
+{
+  "name": "rescript-dimensions",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rescript"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popstarfreas/rescript-nodejs": "git+https://github.com/popstarfreas/rescript-nodejs.git#f3bd284",
+    "@rescript/core": "^1.1.0",
+    "rescript": "^11.0.0",
+    "terraria-packet": "github:popstarfreas/rescript-terrariapacket#e99278a"
+  },
+  "peerDependencies": {
+    "dimensions": "npm:@popstarfreas/dimensions@6.0.0-beta.1"
+  }
+}
