@@ -1,6 +1,6 @@
 type rec client = {
   @as("ID")
-  id: int,
+  id: string,
   options: Config.config,
   servers: Dict.t<RoutingServer.t>,
   socket: NodeJs.Net.Socket.t,

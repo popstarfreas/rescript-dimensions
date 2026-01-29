@@ -9,16 +9,15 @@
     }
   ],
   "package-specs": {
-    "module": "commonjs",
+    "module": "es6",
     "in-source": false,
-    "suffix": ".js"
+    "suffix": ".mjs"
   },
-  "bsc-flags": [
-    "-open RescriptCore"
-  ],
   "bs-dependencies": [
     "terraria-packet",
-    "@rescript/core",
     "@popstarfreas/rescript-nodejs"
-  ]
+  ],
+  "experimental-features": {
+    "LetUnwrap": true
+  }
 }

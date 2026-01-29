@@ -8,11 +8,10 @@
   "license": "ISC",
   "dependencies": {
     "@popstarfreas/rescript-nodejs": "git+https://github.com/popstarfreas/rescript-nodejs.git#f3bd284",
-    "@rescript/core": "^1.1.0",
-    "rescript": "^11.0.0",
-    "terraria-packet": "github:popstarfreas/rescript-terrariapacket#e99278a"
+    "rescript": "^12.1.0",
+    "terraria-packet": "github:popstarfreas/rescript-terrariapacket#73774e050015d4c88aebfcfbcbe53bb121adeb20"
   },
   "peerDependencies": {
-    "dimensions": "npm:@popstarfreas/dimensions@6.0.0-beta.1"
+    "@popstarfreas/dimensions": "6.0.0-beta.1"
   }
 }
